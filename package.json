@@ -1,6 +1,6 @@
 {
   "name": "node-fetch-abort",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A light-weight module that brings window.fetch to node.js and io.js",
   "main": "index.js",
   "scripts": {

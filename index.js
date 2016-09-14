@@ -50,7 +50,6 @@ function Fetch(url, opts) {
     var requestFn = null;
     if(typeof opts.request === 'function') {
       requestFn = opts.request;
-      delete opts.request;
     }
     // build request object
     var options = new Request(url, opts);
