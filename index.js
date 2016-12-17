@@ -77,7 +77,7 @@ function Fetch(url, opts) {
     }
 
     if (!headers.has('user-agent')) {
-      headers.set('user-agent', 'node-fetch/1.0 (+https://github.com/bitinn/node-fetch)');
+      headers.set('user-agent', 'node-fetch');
     }
 
     if (!headers.has('connection') && !options.agent) {
