@@ -36,7 +36,7 @@
     "resumer": "0.0.0"
   },
   "dependencies": {
-    "encoding": "^0.1.11",
+    "encoding": "^0.1.12",
     "is-stream": "^1.0.1"
   }
 }
